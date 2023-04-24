@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "*.ttml": "xml",
+        "*.ttss": "css"
+    }
+}
