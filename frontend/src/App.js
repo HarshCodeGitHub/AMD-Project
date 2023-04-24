@@ -1,5 +1,5 @@
 import './App.css';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 import {
   BrowserRouter as Router,
   Routes,
@@ -29,8 +29,8 @@ function App() {
     <>
       <NoteState>
         <Router>
-            {/* <Navbar/>
-            <Alert alert={alert} /> */}
+            <Navbar/>
+            {/* <Alert alert={alert} /> */}
             <Routes>
                 <Route path="/login" element={<Login giveAlert={giveAlert}/>}/>
                 <Route path="/signup" element={<Signup giveAlert={giveAlert}/>}/>
